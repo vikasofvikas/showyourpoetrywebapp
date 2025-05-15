@@ -4,8 +4,13 @@ import { Container, Typography} from '@mui/material';
 import NavBar from "./navBar";
 import TextCard from "./card";
 import ShareButton from "./shareButton";
+import ShareDialog from "./shareDialog";
+ 
+
 
 export default function Home() {
+ 
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
       <NavBar />
@@ -20,7 +25,8 @@ export default function Home() {
         }}
       >
         <TextCard />
-        <ShareButton />
+        <ShareButton/>
+       
       </Container>
       <Typography 
         variant="h6" 
