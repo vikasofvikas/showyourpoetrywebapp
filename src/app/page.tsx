@@ -4,8 +4,7 @@ import { Container, Typography} from '@mui/material';
 import NavBar from "./navBar";
 import TextCard from "./card";
 import ShareButton from "./shareButton";
-import ShareDialog from "./shareDialog";
- 
+
 
 
 export default function Home() {
